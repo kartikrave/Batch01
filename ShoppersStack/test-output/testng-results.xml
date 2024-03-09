@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser opened Successfully ]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Logged-in]]>
+    </line>
+    <line>
+      <![CDATA[Hello World]]>
+    </line>
+    <line>
+      <![CDATA[Logged out Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser has been Closed Successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-03-05T12:15:06Z" name="Default suite" finished-at="2024-03-05T12:15:33Z" duration-ms="27066">
+    <groups>
+    </groups>
+    <test started-at="2024-03-05T12:15:06Z" name="Default test" finished-at="2024-03-05T12:15:33Z" duration-ms="27066">
+      <class name="testScriptsTest.DTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testScriptsTest.DTest@1046d517]" started-at="2024-03-05T12:15:06Z" name="openBrowser" finished-at="2024-03-05T12:15:29Z" duration-ms="22401" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser opened Successfully ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testScriptsTest.DTest@1046d517]" started-at="2024-03-05T12:15:29Z" name="login" finished-at="2024-03-05T12:15:29Z" duration-ms="526" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Logged-in]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="enter()[pri:0, instance:testScriptsTest.DTest@1046d517]" started-at="2024-03-05T12:15:29Z" name="enter" finished-at="2024-03-05T12:15:29Z" duration-ms="13" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Hello World]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enter -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testScriptsTest.DTest@1046d517]" started-at="2024-03-05T12:15:29Z" name="logout" finished-at="2024-03-05T12:15:31Z" duration-ms="2047" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testScriptsTest.DTest@1046d517]" started-at="2024-03-05T12:15:31Z" name="closeBrowser" finished-at="2024-03-05T12:15:33Z" duration-ms="1984" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser has been Closed Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScriptsTest.DTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
